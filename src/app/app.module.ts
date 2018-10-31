@@ -8,6 +8,7 @@ import { WeatherService } from './weather/weather.service'
 @NgModule({
   declarations: [AppComponent, CurrentWeatherComponent],
   imports: [BrowserModule, HttpClientModule],
+  exports: [BrowserModule, HttpClientModule],
   providers: [WeatherService],
   bootstrap: [AppComponent],
 })
