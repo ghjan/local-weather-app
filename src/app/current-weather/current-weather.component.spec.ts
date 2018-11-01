@@ -13,8 +13,12 @@ describe('CurrentWeatherComponent', () => {
     TestBed.configureTestingModule({
       imports: [HttpClientTestingModule],
       declarations: [CurrentWeatherComponent],
-      providers: [{ provide: WeatherService, useClass:
-        WeatherServiceFake}],
+      providers: [
+        {
+          provide: WeatherService,
+          useClass: WeatherServiceFake,
+        },
+      ],
     }).compileComponents()
   }))
 
