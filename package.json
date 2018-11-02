@@ -29,7 +29,7 @@
     "docker:debug": "run-s -cs docker:open:win docker:open:mac docker:debugmessage docker:taillogs"
   },
   "config": {
-    "imageRepo": "dockerhub.gsir.com.cn/localcastweather",
+    "imageRepo": "dockerhub.gsir.com.cn/localcast-weather",
     "imageName": "localcast-weather",
     "imagePort": "8080"
   },
